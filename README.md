@@ -46,7 +46,7 @@ We create descriptor with this picture (hacktiv8-logo.png) by uploading to NFT c
 
 Each of them will have the same prefix before the file extension. That one will be the Image Descriptor name that you will use on the AR.js web app.
 
-For example: I created descriptor with hacktiv8-logo.png, descripted files is payung.fset, payung.fset3 and payung.iset, your Image Descriptors name will be "payung".
+For example: I created descriptor with hacktiv8-logo.png (you may use jpg image as well), but i renamed generated files to hacktiv8.fset, hacktiv8.fset3 and hacktiv8.iset, your Image Descriptors name will be "hacktiv8".
 
 ### Create Object
 
