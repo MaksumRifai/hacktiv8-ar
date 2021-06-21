@@ -3,7 +3,8 @@
 
 For this Project, I used AR.js and Aframe.js library, Image Descriptor, and MagicaVoxel.
 
-https://github.com/MaksumRifai/hacktiv8-ar (Repo) | https://maksumrifai.github.io/hacktiv8-ar (Live)
+- https://github.com/MaksumRifai/hacktiv8-ar (Repo)
+- https://maksumrifai.github.io/hacktiv8-ar (Live)
 
 Open Live Demo with Chrome Mobile Browser or AR/VR/XR Devices, When cam ready, Scan/Hover hacktiv8 NoteBook (Real things) or Logo from hacktiv8.com, you can also use assets logo from disclaimer and image (hacktiv8-logo.png) from descriptors section below.
 
@@ -159,6 +160,7 @@ A free lightweight GPU-based voxel art editor and interactive path tracing rende
 
 ## Articles
 
+- [VoxelArt Web Augumented Reality (WebAR) by Maksum Rifai](https://dev.to/maksumrifai/voxelart-web-augumented-reality-webar-2man)
 - [Publishing Voxel Designs from MagicaVoxel to Sketchfab](https://blog.sketchfab.com/publishing-voxel-designs-from-magicavoxel-to-sketchfab/)
 - [Building with MagicaVoxel and export to A-Frame (WebVR framework)](https://aframe.io/docs/0.3.0/guides/building-with-magicavoxel.html)
 - [Script for animating MagicaVoxel rendering](http://drinkdecaf.com/magicavoxel_animate)
@@ -169,7 +171,7 @@ All Assets from hacktiv8 (Fox Logo/Icon/Graphic) and company/entity names are tr
 
 (hacktiv8-logo.png) I used for gather colors information (Hex Color) for create object with magicavoxel, and stored on palette (hacktiv8.png). Refer to [hacktiv8.com](https://hacktiv8.com) for more Information about their's Brand.
 
-<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8-ar/main/hacktiv8-logo.png" width="600">
+<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8-ar/main/hacktiv8-logo.png" width="300">
 
 This Logo may copyrighted, but object assets (mtl,obj,png) for 3D Object was originally created and owned by Maksum Rifai with MagicaVoxel for educational and non-commercial purpose, please use it wisely and with your own risks.
 
