@@ -1,11 +1,11 @@
-# AR Kumparan
-<img src="https://raw.githubusercontent.com/MaksumRifai/kumparan/master/kumparan-preview.gif" width="450">
+# AR hacktiv8
+<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8-ar/main/hacktiv8-preview.gif" width="450">
 
 For this Project, I used AR.js and Aframe.js library, Image Descriptor, and MagicaVoxel.
 
-https://github.com/MaksumRifai/kumparan-ar (Repo) | https://maksumrifai.github.io/kumparan-ar (Live)
+https://github.com/MaksumRifai/hacktiv8-ar (Repo) | https://maksumrifai.github.io/hacktiv8-ar (Live)
 
-Open Live Demo with Chrome Mobile Browser or AR/VR/XR Devices, When cam ready, Scan/Hover Kumparan Sticker/Umbrella (Real things) or Logo from kumparan.com, you can also use assets logo from disclaimer and image (payung.jpg) from descriptors section below.
+Open Live Demo with Chrome Mobile Browser or AR/VR/XR Devices, When cam ready, Scan/Hover hacktiv8 NoteBook (Real things) or Logo from hacktiv8.com, you can also use assets logo from disclaimer and image (hacktiv8-logo.png) from descriptors section below.
 
 Note for Desktop Browser you need latest Chrome or Edge that suported and enabled for WebVR Experiences, and also good desktop camera (Webcam), Recommended use Mobile Browser for Best Experience.
 
@@ -40,19 +40,19 @@ If you want to understand the creation of markers in more depth, check out the N
 
 ### Create Image Descriptors:
 
-<img src="https://raw.githubusercontent.com/MaksumRifai/kumparan/master/payung.jpg" width="250">
+<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv-ar/main/hacktiv8-logo.png" width="250">
 
-We create descriptor with this picture (payung.jpg) by uploading to NFT creator web version above then return 3 files to use: .fset, .fset3, .iset.
+We create descriptor with this picture (hacktiv8-logo.png) by uploading to NFT creator web version above then return 3 files to use: .fset, .fset3, .iset.
 
 Each of them will have the same prefix before the file extension. That one will be the Image Descriptor name that you will use on the AR.js web app.
 
-For example: I created descriptor with payung.jpg, descripted files is payung.fset, payung.fset3 and payung.iset, your Image Descriptors name will be "payung".
+For example: I created descriptor with hacktiv8-logo.png, descripted files is payung.fset, payung.fset3 and payung.iset, your Image Descriptors name will be "payung".
 
 ### Create Object
 
-You can download and use 3D models or object from anywhere or create your own with Blender. For this repo, I created my own model based on [Kumparan](https://kumparan.com) Logo with MagicaVoxel.
+You can download and use 3D models or object from anywhere or create your own with Blender. For this repo, I created my own model based on [hacktiv8](https://hacktiv8.com) Logo with MagicaVoxel.
 
-<img src="https://raw.githubusercontent.com/MaksumRifai/kumparan/master/ss-mv.jpg">
+<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8/main/ss-mv-hacktiv8.jpg">
 
 You can watch tutorial on my youtube channel here for DTS Kominfo Logo:
 
@@ -72,19 +72,19 @@ You can watch tutorial on my youtube channel here for DTS Kominfo Logo:
     <!-- we use cors proxy to avoid cross-origin problems -->
     <a-nft
       type="nft"
-      url="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/MaksumRifai/kumparan-ar/master/payung"
+      url="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/MaksumRifai/hacktiv8-ar/main/hacktiv8"
       smooth="true"
       smoothCount="10"
       smoothTolerance=".01"
       smoothThreshold="5"
     >
     <!-- as a child of the a-nft entity, you can define the content to show. here's a OBJ model entity -->
-    <a-entity rotation="90 -90 90" scale="2 2 2" position="0 200 -200" obj-model="obj: #kumparan-obj; mtl: #kumparan-mtl"></a-entity>
+    <a-entity rotation="90 -90 90" scale="2 2 2" position="0 200 -200" obj-model="obj: #hacktiv8-obj; mtl: #hacktiv8-mtl"></a-entity>
     </a-nft>
     <!--Load assets to use by nft entity above-->
        <a-assets>
-        <a-asset-item id="kumparan-obj" src="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/MaksumRifai/kumparan-ar/master/kumparan.obj"></a-asset-item>
-        <a-asset-item id="kumparan-mtl" src="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/MaksumRifai/kumparan-ar/master/kumparan.mtl"></a-asset-item>
+        <a-asset-item id="hacktiv8-obj" src="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/MaksumRifai/hacktiv8-ar/main/hacktiv8.obj"></a-asset-item>
+        <a-asset-item id="hacktiv8-mtl" src="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/MaksumRifai/hacktiv8-ar/main/hacktiv8.mtl"></a-asset-item>
        </a-assets>
     <!--End of assets-->
     <!-- static camera that moves according to the device movemenents -->
@@ -97,35 +97,36 @@ You can refer to [A-Frame docs](https://aframe.io/docs/1.0.0/introduction/) to k
 
 The only custom component here is the a-nft, the Image Tracking HTML anchor, you may see my other projects for references:
 
+- WebAR Image Tracking with Kumparan Umbrella, similar with this project [Repo](https://github.com/MaksumRifai/kumparan-ar) | [Demo](https://maksumrifai.github.io/kumparan-ar))
 - WebAR Image Tracking with Bekasidev Sticker, similar with this project [Repo](https://github.com/MaksumRifai/voxelar) | [Demo](https://maksumrifai.github.io/voxelar))
 - 360° Image VR, Add 3D bus into 360 Degree Image ([Repo](https://github.com/MaksumRifai/360vr) | [Demo](https://maksumrifai.github.io/360vr))
 - Simple Object and Animation VR, Add 3D DTS logo Into Environment ([Repo](https://github.com/MaksumRifai/digitaltalent) | [Demo](https://digitaltalent.netlify.app))
 
 Use Latest Chrome Mobile Browser, enable VR and AR mode to try.
 
-<a href="https://maksumrifai.github.io/voxelar"><img src="https://raw.githubusercontent.com/MaksumRifai/voxelar/master/voxelar-preview.gif" width="200"></a>
+<a href="https://maksumrifai.github.io/voxelar"><img src="https://raw.githubusercontent.com/MaksumRifai/voxelar/master/voxelar-preview.gif" width="400"></a>
 
-<a href="https://maksumrifai.github.io/360vr"><img src="https://raw.githubusercontent.com/MaksumRifai/360vr/master/360vr-preview.gif" width="200"></a>
+<a href="https://maksumrifai.github.io/360vr"><img src="https://raw.githubusercontent.com/MaksumRifai/360vr/master/360vr-preview.gif" width="400"></a>
 
-<a href="https://digitaltalent.netlify.app"><img src="https://raw.githubusercontent.com/MaksumRifai/digitaltalent/master/dts-preview.gif" width="200"></a>
+<a href="https://digitaltalent.netlify.app"><img src="https://raw.githubusercontent.com/MaksumRifai/digitaltalent/master/dts-preview.gif" width="200"></a> <a href="https://maksumrifai.github.io/kumparan-ar"><img src="https://raw.githubusercontent.com/MaksumRifai/kumparan/master/kumparan-preview.gif" width="200"></a>
 
 ## How to use this template
 
 ### Clonning
 Run the following command to clone this template to your local directory:
 ```
-$ git clone https://github.com/MaksumRifai/kumparan-ar.git
+$ git clone https://github.com/MaksumRifai/hacktiv8-ar.git
 
 ```
 ### Download
-Use green button above and click "Download Zip" or simply click [here](https://github.com/MaksumRifai/kumparan-ar/archive/master.zip)
+Use green button above and click "Download Zip" or simply click [here](https://github.com/MaksumRifai/hacktiv8-ar/archive/main.zip)
 
 ## Customizing
 In case you want to use your own models, simply replace the [.obj .mtl .png](https://en.m.wikipedia.org/wiki/Wavefront_.obj_file) files with yours. Don't forget to export your MagicaVoxel or Blender project properly.
 
 Then edit this repo as you needed, you only need to replace URL/File name with yours, and the descripted files (fset, iset, fset3) you created with your own source image, use your favorite code editor, directly in web browser or github desktop.
 
-<img src="https://raw.githubusercontent.com/MaksumRifai/kumparan/master/ss-vsc.jpg">
+<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8-ar/main/ss-vsc.jpg" width="350">
 
 For better and faster development or debugging this project, you can use [Spck Code/Git Editor](http://play.google.com/store/apps/details?id=io.spck) for Android, I mainly use this way.
 
@@ -164,16 +165,16 @@ A free lightweight GPU-based voxel art editor and interactive path tracing rende
 
 # Copyright Notice & Disclaimer
 
-All Assets from Kumparan (U Logo/Icon/Graphic) and company/entity names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.
+All Assets from hacktiv8 (Fox Logo/Icon/Graphic) and company/entity names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.
 
-(kumparan-logo.svg) I used for gather colors information (Hex Color) for create object with magicavoxel, and stored on palette (kumparan.png). Refer to [kumparan.com](https://kumparan.com) for more Information about their's Brand.
+(hacktiv8-logo.png) I used for gather colors information (Hex Color) for create object with magicavoxel, and stored on palette (hacktiv8.png). Refer to [hacktiv8.com](https://hacktiv8.com) for more Information about their's Brand.
 
-<img src="https://raw.githubusercontent.com/MaksumRifai/kumparan/master/kumparan-logo.svg" width="200">
+<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8/master/hacktiv8-logo.png" width="200">
 
 This Logo may copyrighted, but object assets (mtl,obj,png) for 3D Object was originally created and owned by Maksum Rifai with MagicaVoxel for educational and non-commercial purpose, please use it wisely and with your own risks.
 
 ### Support Me
 <a href="https://www.paypal.me/maksumrifai"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSRU16oC9ndfwmD5a14Df0X7B96ummOHmQGsg&tusqp=CAU" width="200"></a> <a href="https://invoice.xendit.co/donation/Dukungan"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROR5VQJr0XTxLh-kmhGyyyQA0i8ISLTxQRcg&usqp=CAU" width="200"></a>
 
-<a href="https://github.com/desainerhub"><img src="https://raw.githubusercontent.com/MaksumRifai/kumparan/master/learn.png" width="200"></a>
+<a href="https://github.com/desainerhub"><img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8/master/learn.png" width="200"></a>
 <a href="https://github.com/Bekasi-Dev-Community"><img src="https://raw.githubusercontent.com/Bekasi-Dev-Community/bekasidev/master/assets/img/brand/bekasidev-stiker.png" width="200"></a>
