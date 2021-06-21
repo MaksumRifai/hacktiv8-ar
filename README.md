@@ -40,7 +40,7 @@ If you want to understand the creation of markers in more depth, check out the N
 
 ### Create Image Descriptors:
 
-<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv-ar/main/hacktiv8-logo.png" width="250">
+<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8-ar/main/hacktiv8-logo.png" width="250">
 
 We create descriptor with this picture (hacktiv8-logo.png) by uploading to NFT creator web version above then return 3 files to use: .fset, .fset3, .iset.
 
@@ -52,7 +52,7 @@ For example: I created descriptor with hacktiv8-logo.png, descripted files is pa
 
 You can download and use 3D models or object from anywhere or create your own with Blender. For this repo, I created my own model based on [hacktiv8](https://hacktiv8.com) Logo with MagicaVoxel.
 
-<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8/main/ss-mv-hacktiv8.jpg">
+<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8-ar/main/ss-mv-hacktiv8.jpg">
 
 You can watch tutorial on my youtube channel here for DTS Kominfo Logo:
 
