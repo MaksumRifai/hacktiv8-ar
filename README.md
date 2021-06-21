@@ -40,7 +40,7 @@ If you want to understand the creation of markers in more depth, check out the N
 
 ### Create Image Descriptors:
 
-<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8-ar/main/hacktiv8-logo.png" width="250">
+<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8-ar/main/hacktiv8-logo.png" width="300">
 
 We create descriptor with this picture (hacktiv8-logo.png) by uploading to NFT creator web version above then return 3 files to use: .fset, .fset3, .iset.
 
@@ -104,11 +104,11 @@ The only custom component here is the a-nft, the Image Tracking HTML anchor, you
 
 Use Latest Chrome Mobile Browser, enable VR and AR mode to try.
 
-<a href="https://maksumrifai.github.io/voxelar"><img src="https://raw.githubusercontent.com/MaksumRifai/voxelar/master/voxelar-preview.gif" width="400"></a>
+<a href="https://maksumrifai.github.io/voxelar"><img src="https://raw.githubusercontent.com/MaksumRifai/voxelar/master/voxelar-preview.gif" width="600"></a>
 
-<a href="https://maksumrifai.github.io/360vr"><img src="https://raw.githubusercontent.com/MaksumRifai/360vr/master/360vr-preview.gif" width="400"></a>
+<a href="https://maksumrifai.github.io/360vr"><img src="https://raw.githubusercontent.com/MaksumRifai/360vr/master/360vr-preview.gif" width="600"></a>
 
-<a href="https://digitaltalent.netlify.app"><img src="https://raw.githubusercontent.com/MaksumRifai/digitaltalent/master/dts-preview.gif" width="200"></a> <a href="https://maksumrifai.github.io/kumparan-ar"><img src="https://raw.githubusercontent.com/MaksumRifai/kumparan/master/kumparan-preview.gif" width="200"></a>
+<a href="https://digitaltalent.netlify.app"><img src="https://raw.githubusercontent.com/MaksumRifai/digitaltalent/master/dts-preview.gif" width="300"></a> <a href="https://maksumrifai.github.io/kumparan-ar"><img src="https://raw.githubusercontent.com/MaksumRifai/kumparan/master/kumparan-preview.gif" width="300"></a>
 
 ## How to use this template
 
@@ -126,7 +126,7 @@ In case you want to use your own models, simply replace the [.obj .mtl .png](htt
 
 Then edit this repo as you needed, you only need to replace URL/File name with yours, and the descripted files (fset, iset, fset3) you created with your own source image, use your favorite code editor, directly in web browser or github desktop.
 
-<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8-ar/main/ss-vsc.jpg" width="350">
+<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8-ar/main/ss-vsc.jpg" width="600">
 
 For better and faster development or debugging this project, you can use [Spck Code/Git Editor](http://play.google.com/store/apps/details?id=io.spck) for Android, I mainly use this way.
 
@@ -169,12 +169,12 @@ All Assets from hacktiv8 (Fox Logo/Icon/Graphic) and company/entity names are tr
 
 (hacktiv8-logo.png) I used for gather colors information (Hex Color) for create object with magicavoxel, and stored on palette (hacktiv8.png). Refer to [hacktiv8.com](https://hacktiv8.com) for more Information about their's Brand.
 
-<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8/master/hacktiv8-logo.png" width="200">
+<img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8-ar/main/hacktiv8-logo.png" width="600">
 
 This Logo may copyrighted, but object assets (mtl,obj,png) for 3D Object was originally created and owned by Maksum Rifai with MagicaVoxel for educational and non-commercial purpose, please use it wisely and with your own risks.
 
 ### Support Me
-<a href="https://www.paypal.me/maksumrifai"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSRU16oC9ndfwmD5a14Df0X7B96ummOHmQGsg&tusqp=CAU" width="200"></a> <a href="https://invoice.xendit.co/donation/Dukungan"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROR5VQJr0XTxLh-kmhGyyyQA0i8ISLTxQRcg&usqp=CAU" width="200"></a>
+<a href="https://www.paypal.me/maksumrifai"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSRU16oC9ndfwmD5a14Df0X7B96ummOHmQGsg&tusqp=CAU" width="300"></a> <a href="https://invoice.xendit.co/donation/Dukungan"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROR5VQJr0XTxLh-kmhGyyyQA0i8ISLTxQRcg&usqp=CAU" width="300"></a>
 
-<a href="https://github.com/desainerhub"><img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8/master/learn.png" width="200"></a>
-<a href="https://github.com/Bekasi-Dev-Community"><img src="https://raw.githubusercontent.com/Bekasi-Dev-Community/bekasidev/master/assets/img/brand/bekasidev-stiker.png" width="200"></a>
+<a href="https://github.com/desainerhub"><img src="https://raw.githubusercontent.com/MaksumRifai/hacktiv8-ar/main/learn.png" width="300"></a>
+<a href="https://github.com/Bekasi-Dev-Community"><img src="https://raw.githubusercontent.com/bekasidev/bekasidev/master/assets/img/brand/bekasidev-stiker.png" width="300"></a>
