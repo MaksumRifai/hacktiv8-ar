@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hacktiv8 AR - Maksum Rifai</title>
+
+  <!-- Import Aframe.js JS & AR.js -->
+<script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
+<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+  <body style="margin : 0px; overflow: hidden;">
+  <!-- minimal loader shown until image descriptors are loaded -->
+  <div class="arjs-loader">
+    <div>Loading... scan hacktiv8 logo when camera ready</div>
+  </div>
+  <!-- end of loader-->
+  <!-- Main Scene -->
+  <a-scene
+    vr-mode-ui="enabled: false;"
+    renderer="logarithmicDepthBuffer: true;"
+    embedded
+    arjs="trackingMethod: best;
+    sourceType: webcam;
+    debugUIEnabled: false;"
+  >
+    <!-- we use cors proxy to avoid cross-origin problems -->
+    <a-nft
+      type="nft"
+      url="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/MaksumRifai/hacktiv8-ar/master/payung"
+      smooth="true"
+      smoothCount="10"
+      smoothTolerance=".01"
+      smoothThreshold="5"
+    >
+    <!-- as a child of the a-nft entity, you can define the content to show. here's a OBJ model entity -->
+    <a-entity rotation="90 -90 90" scale="2 2 2" position="0 200 -200" obj-model="obj: #hacktiv8-obj; mtl: #hacktiv8-mtl"></a-entity>
+    </a-nft>
+    <!--Load assets to use by nft entity above-->
+       <a-assets>
+        <a-asset-item id="hacktiv8-obj" src="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/MaksumRifai/hacktiv8-ar/master/hacktiv8.obj"></a-asset-item>
+        <a-asset-item id="hacktiv8-mtl" src="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/MaksumRifai/hacktiv8-ar/master/hacktiv8.mtl"></a-asset-item>
+       </a-assets>
+    <!--End of assets-->
+    <!-- static camera that moves according to the device movemenents -->
+    <a-entity camera></a-entity>
+  </a-scene>
+  <!--End of Scene-->
+</body>
+</html>
